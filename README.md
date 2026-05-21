@@ -12,7 +12,7 @@ A lightweight, clean Python script designed to establish an automatic reverse TC
 ## 🚀 Quick Start Guide
 
 ### 1. Remote VPS Setup (Server-side)
-bash curl -sL [https://raw.githubusercontent.com/BSetiStudio/mcvpsbridge/main/bridge.py](https://raw.githubusercontent.com/BSetiStudio/mcvpsbridge/main/bridge.py) -o bridge.py
+curl -sL [https://raw.githubusercontent.com/BSetiStudio/mcvpsbridge/main/bridge.py](https://raw.githubusercontent.com/BSetiStudio/mcvpsbridge/main/bridge.py) -o bridge.py
 
 Launch the server routing component:
 
@@ -29,6 +29,6 @@ python bridge.py client
 3. The script will generate a template `config.json` file. Open it up and update the `"vps_ip"` field, replacing `123.123.123.123` with your actual VPS public IP address.
 
 4. Execute the command once more:
-bash python bridge.py client
+python bridge.py client
    
 That's it! Launch your local Minecraft server instance. Your friends can now connect seamlessly using your VPS's public IP address as the server address!
