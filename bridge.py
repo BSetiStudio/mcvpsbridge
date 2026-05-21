@@ -33,8 +33,14 @@ def pipe(src, dst):
     except Exception:
         pass
     finally:
-        try: src.close() except Exception: pass
-        try: dst.close() except Exception: pass
+        try:
+            src.close()
+        except Exception:
+            pass
+        try:
+            dst.close()
+        except Exception:
+            pass
 
 def run_server(c_port, m_port):
     print(f"=== VPS SERVER MODE INITIALIZED ===")
